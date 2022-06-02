@@ -131,14 +131,14 @@ body {
 
 
   
-  @media only screen and (max-width: 800px){
+  @media only screen and (max-width: 1300px){
     body {padding: 20px 0}
     main {width: 85%; 
       background-image: none;
       background-repeat: no-repeat;
       padding: 13% 0;
     }
-    .figureImg {display: none;}
+    .slideshow-container {display: none;}
     .formSection {padding: 1rem 3rem; 
       margin: auto;
       width: 60%;}
