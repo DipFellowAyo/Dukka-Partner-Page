@@ -52,7 +52,7 @@ body {
   }
 
   .dot {
-    width: 2%;
+    width: 10px;
     height: 10px;
     margin: auto;
     background-color: #bbb;
