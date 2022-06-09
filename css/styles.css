@@ -4,7 +4,7 @@ body {
     margin: 0;
     text-align: center;
     font-family: 'Poppins', sans-serif;
-    letter-spacing: -0.7px;
+    font-style: normal;
 }
 
 *::before,
@@ -16,30 +16,32 @@ body {
 
 article {
     width: 100%;
-    padding: 10px 0;
-    background-color: #f0f3fd;
+    padding: 50px 0 30px;
+    background-color: #ffffff;
+    line-height: 1.25;
 }
 
 article h1{
     width: 20rem;
     margin: auto;
-    margin-top: 40px;
     font-size: 3rem;
     font-weight: 500;
+    letter-spacing: -2px;
 }
 
 article h6 {
-    width: 65%;
-    margin: 40px auto;
+    width: 60%;
+    margin: 50px auto;
+    line-height: 1.7;
     font-size: 1rem;
     font-weight: 400;
-    line-height: 2.0rem;
+    letter-spacing: -0.2px;
 }
 
 .Apply-button {
     width: 200px;
     padding: 1%;
-    margin: 20px auto;
+    margin: 50px auto;
 }
 
 .Apply-button button {
@@ -49,7 +51,6 @@ article h6 {
     box-sizing: border-box;
     box-shadow: 5px 5px 5px #d4e0fc;
     border-radius: 0.8em;
-    font-style: normal;
     font-weight: 600;
     line-height: 1.6;
     font-size: 14px;
@@ -67,8 +68,7 @@ article h6 {
 }
 
 .image1-section {
-    margin: 30px;
-    padding: 1.5%;
+    margin: 50px;
 }
 
 .image1 {
@@ -81,18 +81,19 @@ article h6 {
 
 #Offer-section {
     width: 100%;
-    font-style: normal;
-    line-height: 1.5rem;
+    padding: 50px 0 30px;
+    background-color: #f0f3fd;
 }
 
 .offer1 {
     width: 100%;
-    background-color: #ffffff;
 }
 
 .offer1-header {
     width: 70%;
-    margin: 40px auto;
+    margin: auto;
+    line-height: 1.25;
+    letter-spacing: -1px;
 }
 
 .offer1-header h2 {
@@ -102,19 +103,12 @@ article h6 {
 
 .row1, .row2, .row3, .row4 {
     width: 100%;
-    padding: 30px 0;
+    margin: 50px 0;
+    padding: 20px 0;
     display: flex;
     justify-content: center;
     text-align: start;
     background-color: #f0f3fd;
-}
-
-.row1-col1, .row1-col2 {
-    margin-top: 50px;
-}
-
-.row4-col1, .row4-col2 {
-    margin-bottom: 50px;
 }
 
 .row1-col1, .row2-col1, .row3-col1, .row4-col1 {
@@ -124,7 +118,7 @@ article h6 {
 .row1-col1, .row1-col2, .row2-col1, .row2-col2, .row3-col1, .row3-col2, .row4-col1, .row4-col2{
     width: 30%;
     background-color: #ffffff;
-    box-shadow: 10px 10px 30px #d4e0fc;
+    box-shadow: 5px 5px 2px #d4e0fc;
     border-radius: 1rem;
     padding: 1.5%;
 }
@@ -137,12 +131,16 @@ article h6 {
 .subheading {
     font-size: 1.5rem;
     font-weight: 500;
+    line-height: 1.25;
+    letter-spacing: -0.5px;
     padding: 0 2%;
 }
 
 .subtext {
     font-size: 1rem;
     font-weight: 300;
+    line-height: 1.7;
+    letter-spacing: -0.2px;
     padding: 0 2%;
     color: #6b81a3;
 }
@@ -152,49 +150,55 @@ article h6 {
 #Apply-section {
     width: 100%;
     background-color: #ffffff;
-    padding: 10px 0;
+    padding: 50px 0;
 }
 
 .apply-section-header {
     width: 50%;
-    margin: auto;
-    padding: 0.3%;
+    margin: 50px auto;
+    padding-bottom: 5px;
 }
 
 .apply-section-header h1 {
     font-size: 3rem;
     font-weight: 500;
+    line-height: 1.25;
+    letter-spacing: -1px;
 }
 
 .apply-section-footer {
     width: 90%;
-    margin: 10px auto;
+    margin: 50px auto;
     display: flex;
     justify-content: center;
 }
 
 .footer-img-container {
-    width: 45%;
+    width: 450px;
     margin-right: 5%;
     padding: 1.2%;
 }
 
 .footer-img {
-    width: 90%;
-    object-fit: contain;
-    box-shadow: 10px 10px 100px #bbb;
-    border-radius: 2.5%;
+    width: 100%;
+    max-height: 500px;
+    object-fit: cover;
+    box-shadow: 2px 2px 0.5px #bbb;
+    border-radius: 0.4rem;
 }
 
 .text-container {
     width: 45%;
-    line-height: 2;
+    margin-left: 5%;
+    max-height: 450px;
 }
 
 .text-container h1 {
     text-align: start;
     font-size: 1.1rem;
     font-weight: 300;
+    line-height: 1.7;
+    letter-spacing: -0.2px;
 }
 
 .points {
@@ -203,94 +207,128 @@ article h6 {
 
 .check-line {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .check-item {
-    width: 2.5%;
+    width: 14px;
     height: 14px;
     background-color: #000000;
-    box-shadow: 3px 3px #b5bfd3;
+    box-shadow: 2px 2px #b5bfd3;
     border-radius: 0.2em;
 }
 
 .check-line h1 {
     position: relative;
-    bottom: 30px;
+    bottom: 27px;
     width: 90%;
+    margin-left: 5%;
     font-size: 1.1rem;
     font-weight: 500;
     line-height: 2.2;
+    letter-spacing: -0.5px;
 }
 
 .second-Apply {
     margin: 0;
+    padding: 0 !important;
+}
+
+.partner-team {
+    padding: 10px 0;
 }
 
 .partner-heading {
-    width: 80%;
-    margin: 40px auto;
-    padding: 10px;
+    width: 100%;
+    margin: 40px 0;
 }
 
 .partner-heading h1 {
     font-size: 2rem;
     font-weight: 500;
     margin: 10px 0;
+    line-height: 1.25;
+    letter-spacing: -1px;
 }
 
 .partner-heading h3 {
-    font-size: 1rem;
+    margin: 50px 0;
+    font-size: 1.5rem;
     font-weight: 400;
-    margin: 10px 0;
+    line-height: 2.2;
+    letter-spacing: -0.5px;
 }
 
 .team {
+    width: 95%;
+    margin: auto;
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
 }
 
 .team-row {
-    width: 30%;
+    width: 40%;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    text-align: start;
 }
 
 .team-row .check-item {
-    width: 10px;
-    height: 10px;
-    margin-right: 10%;
+    width: 14px;
+    height: 14px;
     border-radius: 1.2em;
 }
 
 .team-row h6 {
+    margin-left: 6%;
     position: relative;
-    bottom: 45px;
-    font-size: 1rem;
+    bottom: 50px;
+    font-size: 1.1rem;
     font-weight: 400;
+    line-height: 2.2;
+    letter-spacing: -0.5px;
 }
 
 .album-row {
     width: 95%;
     margin: 0 auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .image-grid {
-    width: 25%;
+    width: 40%;
+}
+
+.image {
+    width: 46%;
 }
 
 .grid-img {
-    width: 90%;
+    width: 95%;
     margin: auto;
+}
+
+.image-collage {
+    width: 86%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-collage .image-grid {
+    width: 55%;
+}
+
+.image-collage .image-gridd {
+    width: 48%;
 }
 
 .grid-img img, .image-grid img{
     width: 100%;
     object-fit: contain;
-    border-radius: 0.5em;
+    border-radius: 0.2em;
+    box-shadow: 1px 1px 0.5px #bbb;
 }
 
 /* FAQ-section */
@@ -309,43 +347,55 @@ article h6 {
 }
 
 .FAQs-container {
-    width: 60%;
+    width: 62%;
     margin: 50px auto;
     display: flex;
     justify-content: center;
     flex-direction: column;
 }
 
-.FAQ h1 {
+.FAQ {
+    line-height: 1.5;
+    letter-spacing: 0.3px;
+    padding: 0.5rem 2rem;
     text-align: start;
+}
+
+.FAQ-header {
+    width: 80%;
+    display: flex;
+    align-items: center;
     color: #161219;
+    font-size: 1.2rem;
+    font-weight: 500;
     cursor: pointer;
     border: none;
     outline: none;
-    transition: 0.4s; 
-    font-size: 1.2rem;
-    font-weight: 500;
 }
 
-.FAQ p {
-    text-align: start;
-    padding: 30px 0;
-    display: none;
-    overflow: hidden;
+.FAQ-header:after {
+    margin: auto;
+    content: '\002B';
+    font-size: 1.3rem;
+    color: #000000;
+    position: absolute;
+    right: 10rem;
+    transition: 0.2s;
+}
+
+.FAQ h1.active:after {
+    transform: rotate(45deg);
+}
+
+.FAQ-footer {
+    position: relative;
     font-size: 1rem;
     font-weight: 400;
-}
-
-.FAQ h1:after {
-    content: '\02795';
-    font-size: 13px;
-    color: #777;
-    float: right;
-    margin-left: 5px;
-}
-
-.active:after {
-    content: '\2212';
+    text-align: justify;
+    line-height: 2;
+    height: 0;
+    overflow: hidden;
+    transition: all 0.5s;
 }
 
 .FAQs-footer {
@@ -418,6 +468,7 @@ article h6 {
         display: block;
         text-align: start;
         padding: 20px 0 10px;
+        margin: 0;
     }
 
     .row1-col1, .row1-col2, .row2-col1, .row2-col2, .row3-col1, .row3-col2, .row4-col1, .row4-col2{
@@ -426,7 +477,6 @@ article h6 {
         background-color: #ffffff;
         border-radius: 2rem;
         padding: 3%;
-        box-shadow: 5px 5px 10px #d4e0fc;
     }
 
     .row1-col2, .row2-col2, .row3-col2, .row4-col2 {
@@ -442,7 +492,7 @@ article h6 {
     }
 
     .apply-section-header {
-        width: 90%;
+        width: 70%;
         margin: auto;
         padding: 0.5%;
     }
@@ -459,34 +509,43 @@ article h6 {
     }
     
     .footer-img-container {
-        width: 100%;
+        width: 400px;
         margin: auto;
     }
 
     .footer-img-container img {
-        border-radius: 1rem;
+        width: 100%;
     }
 
     .text-container {
-        width: 100%;
+        width: 90%;
         margin-top: 30px;
     }
 
     .check-item {
-        width: 10px;
-        height: 10px;
+        width: 11px;
+        height: 11px;
         background-color: #000000;
-        box-shadow: 3px 3px #b5bfd3;
+        box-shadow: 2px 2px #b5bfd3;
         border-radius: 0.2em;
     }
 
-    .Apply-free {
-        width: 80%;
+    .second-Apply {
+        width: 200px;
+        margin: 0;
+    }
+    .partner-team {
+        margin-top: 80px;
+    }
+
+    .partner-heading {
+        width: 70%;
         margin: auto;
     }
 
     .team {
         display: block;
+        margin-bottom: 50px;
     }
 
     .team-row {
@@ -497,31 +556,14 @@ article h6 {
         text-align: start;
         }
 
-    .album-row {
-        width: 80%;
-        margin: 0 auto;
-        display: block;
-    }
-
-    .image-grid {
-        width: 100%;
-        margin: auto;
-    }
-    
-    .grid-img {
-        width: 80%;
-        margin: auto;
-    }
-    
-    .grid-img img {
-        width: 100%;
-        object-fit: contain;
-        border-radius: 0.5em;
-    }
-
     .FAQs-header {
         width: 100%;
         font-size: 2.0rem;
+    }
+
+    .FAQ-header:after {
+        position: absolute;
+        right: 5rem;
     }
     
     .FAQs-container {
@@ -536,15 +578,171 @@ article h6 {
     
     .FAQ p {
         text-align: start;
-        padding: 30px 0;
-        display: none;
-        overflow: hidden;
+        padding: 20px 0;
         font-size: 1rem;
         font-weight: 400;
     }
     
+}
 
+@media only screen and (max-width: 720px) {
 
+     .album-row {
+        width: 90%;
+        margin: 0 auto;
+        display: block;
+    }
 
+    .image-grid {
+        width: 95%;
+        margin: auto;
+        display: flex;
+        justify-content: space-evenly;
+        padding: 5px;
+    }
+
+    .image-grid .grid-img {
+        width: 50%;
+    }
+
+    .image-grid .grid-img img {
+        width: 95%;
+        margin: auto;
+        object-fit: contain;
+        border-radius: 0.5em;
+    }
+
+    .image {
+        width: 100%;
+        margin: auto;
+    }  
     
+    .image .grid-img {
+        width: 95%;
+        margin: auto;
+    }
+
+    .image .grid-img img {
+        width: 95%;
+        height: 450px;
+        margin: auto;
+        object-fit: cover;
+        border-radius: 0.5em;
+    }
+    
+    .image-collage {
+       display: none
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    article {
+        width: 100%;
+        padding: 50px 0 30px;
+    }
+    
+    article h1{
+        width: 50%;
+        margin: auto;
+        font-size: 2.2rem;
+        font-weight: 500;
+        letter-spacing: -2.5px;
+        line-height: 1;
+    }
+    
+    article h6 {
+        width: 70%;
+        margin: 30px auto;
+        font-size: 0.8rem;
+        letter-spacing: -0.5px;
+        line-height: 1.8;
+    }
+
+    #Offer-section {
+        padding: 20px 0 20px;
+    }
+    
+    .offer1-header {
+        line-height: 1;
+        letter-spacing: -2px;
+    }
+    
+    .offer1-header h2 {
+        font-size: 1.8rem;
+    }
+    
+    .logo {
+        width: 5rem;
+        height: 5rem;
+    }
+    
+    .subheading {
+        font-size: 1.5rem;
+        line-height: 1.3;
+        letter-spacing: -1px;
+    }
+    
+    .subtext {
+        font-size: 1rem;
+        line-height: 1.5;
+        letter-spacing: -0.5px;
+    }
+
+    #Apply-section {
+        padding: 20px 0;
+    }
+    
+    .apply-section-header {
+        width: 70%;
+        margin: 10px auto;
+    }
+    
+    .apply-section-header h1 {
+        font-size: 2rem;
+        font-weight: 500;
+        letter-spacing: -2.5px;
+        line-height: 1.2;
+    }
+
+    .footer-img-container {
+        width: 80%;
+        margin: auto;
+    }
+
+    .partner-team {
+        margin-top: 150px;
+    }
+    
+    .partner-heading {
+        width: 95%;
+        margin: 50px auto;
+    }
+    
+    .partner-heading h1 {
+        font-size: 1.5rem;
+        margin: 10px 0;
+    }
+    
+    .partner-heading h3 {
+        margin: 20px 0;
+        font-size: 1rem;
+        line-height: 1.5;
+        letter-spacing: -1px;
+    }
+    
+    .team-row .check-item {
+        width: 10px;
+        height: 10px;
+        border-radius: 1em;
+    }
+    
+    .team-row h6 {
+        font-size: 1rem;
+    }
+
+    .FAQ-header:after {
+        position: absolute;
+        right: 3rem;
+    }
+
 }
