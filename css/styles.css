@@ -644,16 +644,16 @@ article h6 {
     article h1{
         width: 50%;
         margin: auto;
-        font-size: 2.2rem;
+        font-size: 2.5rem;
         font-weight: 500;
         letter-spacing: -2.5px;
         line-height: 1;
     }
     
     article h6 {
-        width: 70%;
+        width: 75%;
         margin: 30px auto;
-        font-size: 0.8rem;
+        font-size: 1rem;
         letter-spacing: -0.5px;
         line-height: 1.8;
     }
@@ -738,6 +738,23 @@ article h6 {
     
     .team-row h6 {
         font-size: 1rem;
+    }
+
+    .FAQs-container {
+        width: 80%;
+    }
+    
+    .FAQ {
+        padding: 0;
+        text-align: start;
+    }
+
+    .FAQ-header {
+        font-size: 0.8rem;
+    }
+
+    .FAQ-footer {
+        font-size: 0.5rem;
     }
 
     .FAQ-header:after {
