@@ -95,7 +95,7 @@ body {
   #mc_embed_signup > form >.btn {
     width: 200px;
     margin: 20px 0;
-    padding: 0.5rem;
+    padding: 0.8rem;
     border: 0.2em solid #ec7e81;
     background-color: #ec7e81;
     box-sizing: border-box;
@@ -169,13 +169,13 @@ body {
       }
 
       #mc_embed_signup > form >.btn {
-        width: 55%;
+        width: 50%;
         margin: 30px auto;
-        padding: 0.5rem;
+        padding: 0.9rem;
         justify-self: center;
         font-weight: 600;
-        line-height: 1.6;
-        font-size: 0.6rem;
+        line-height: 1.8;
+        font-size: 0.8rem;
       }
 
   }
