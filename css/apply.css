@@ -52,10 +52,14 @@ body {
 
   .mySlide {
       display: none;
+      width: 100%;
   }
-  
-  .active {
-      background-color: #ffffff;
+
+  .mySlide img {
+    width: 100%;
+    min-height: 620px;
+    max-height: 650px;
+    object-fit: cover;
   }
 
   .fade {
@@ -68,10 +72,12 @@ body {
       to {opacity: 1}
   }
 
-  .formSection {
-      padding: 2% 5%;
-      width: 45%;
-      background-color: #ffffff;
+  #mc_embed_signup {
+    background: #fff;
+    clear: left;
+    font: 14px Helvetica, Arial, sans-serif;
+    width: 45%;
+    padding: 2% 4%;
   }
   
   h2 {
@@ -80,27 +86,16 @@ body {
   }
   
   form {
-    line-height: 3;
+    line-height: 1.8;
     font-style: normal;
     text-align: start;
     font-weight: 500;
   }
   
-  input[type=text] {
-    width: 90%;
-    padding: 1rem;
-    display: inline-block;
-    border: solid 0.1em #000000;
-    border-radius: 0.5em;
-    background: #ffffff;
-    font-weight: 400;
-    font-size: 0.8rem;
-  }
-  
-  button {
-    width: 40%;
+  #mc_embed_signup > form >.btn {
+    width: 200px;
     margin: 20px 0;
-    padding: 0.8rem;
+    padding: 0.5rem;
     border: 0.2em solid #ec7e81;
     background-color: #ec7e81;
     box-sizing: border-box;
@@ -108,19 +103,17 @@ body {
     cursor: pointer;
     border-radius: 0.8em;
     font-weight: 600;
-    line-height: 1.6;
-    font-size: 14px;
+    line-height: 1.5;
+    font-size: 0.7rem;
   }
   
-  button:hover {
+  #mc_embed_signup > form >.btn:hover {
     border: 0.2em solid #000000;
     background-color: #000000;
     box-shadow: none;
     color: #ffffff;
     opacity: 1;
   }
-
-
   
   @media only screen and (max-width: 1200px){
 
@@ -156,9 +149,10 @@ body {
         display: none;
     }
 
-    .formSection {
+    #mc_embed_signup {
       margin: auto;
-      width: 85%;
+      width: 100%;
+      padding: 2% 3%;
     }
 
     h2 {
@@ -169,21 +163,14 @@ body {
     }
 
     form {
-        line-height: 1.8;
+        line-height: 1.7;
         font-size: 0.7rem;
         font-weight: 500;
       }
-      
-    input[type=text] {
-        width: 90%;
-        padding: 0.6rem;
-        margin-bottom: 1.5rem;
-        font-size: 0.6rem;
-      }
 
-      button {
+      #mc_embed_signup > form >.btn {
         width: 55%;
-        margin: auto;
+        margin: 30px auto;
         padding: 0.5rem;
         justify-self: center;
         font-weight: 600;

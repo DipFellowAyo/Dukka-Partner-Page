@@ -14,44 +14,28 @@ function showSlides() {
     setTimeout(showSlides, 6000);
 }
 
-function validate() {
-
-    if(document.myForm.email.value == "") {
-        alert( "Please provide your Email!" );
-        document.myForm.email.focus() ;
-        return (validateEmail);
-    }
-
-    if(document.myForm.firstname.value == "") {
-        alert( "Please provide your first name!" );
-        document.myForm.firstname.focus() ;
-        return false;
-    }
-
-    if(document.myForm.lastname.value == "") {
-        alert( "Please provide your last name!" );
-        document.myForm.lastname.focus() ;
-        return false;
-    }
-
-    if(document.myForm.phonenumber.value == "" || isNaN(document.myForm.phonenumber.value) || document.myForm.phonenumber.value.length != 11) {
-        alert( "Please provide a phonenumber in the right format!" );
-        document.myForm.phonenumber.focus() ;
-        return false;
-    }
-
-    return true;
-}
-
-function validateEmail() {
-    var emailID = document.myForm.email.value;
-         atpos = emailID.indexOf("@");
-         dotpos = emailID.lastIndexOf(".");
-         
-         if (atpos < 1 || ( dotpos - atpos < 2 )) {
-            alert("Please enter correct email ID")
-            document.myForm.email.focus() ;
-            return false;
-         }
-         return( true );
-}
+(function ($) {
+    window.fnames = new Array();
+    window.ftypes = new Array();
+    fnames[0] = "EMAIL";
+    ftypes[0] = "email";
+    fnames[6] = "MMERGE6";
+    ftypes[6] = "text";
+    fnames[3] = "MMERGE3";
+    ftypes[3] = "phone";
+    fnames[1] = "MMERGE1";
+    ftypes[1] = "dropdown";
+    fnames[2] = "MMERGE2";
+    ftypes[2] = "dropdown";
+    fnames[5] = "MMERGE5";
+    ftypes[5] = "dropdown";
+    fnames[4] = "MMERGE4";
+    ftypes[4] = "text";
+    fnames[7] = "MMERGE7";
+    ftypes[7] = "dropdown";
+    fnames[8] = "MMERGE8";
+    ftypes[8] = "dropdown";
+    fnames[9] = "MMERGE9";
+    ftypes[9] = "text";
+})(jQuery);
+var $mcj = jQuery.noConflict(true);
