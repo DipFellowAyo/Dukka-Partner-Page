@@ -311,7 +311,7 @@ article h6 {
 }
 
 .image-collage {
-    width: 86%;
+    width: 88%;
     display: flex;
     justify-content: space-between;
 }
@@ -321,7 +321,7 @@ article h6 {
 }
 
 .image-collage .image-gridd {
-    width: 48%;
+    width: 50%;
 }
 
 .grid-img img, .image-grid img{
