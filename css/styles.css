@@ -331,6 +331,13 @@ article h6 {
     box-shadow: 1px 1px 0.5px #bbb;
 }
 
+.grid-img img:hover, .image-grid img:hover {
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+
 /* FAQ-section */
 
 #FAQs-section {
