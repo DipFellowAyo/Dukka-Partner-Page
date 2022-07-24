@@ -736,6 +736,10 @@ article h6 {
         margin-bottom: 20px;
     }
 
+    #Apply-section {
+        margin-bottom: 600px;
+    }
+
     .apply-section-header {
         width: 70%;
         margin: auto;
@@ -825,6 +829,10 @@ article h6 {
 
     .baseline {
         margin-top: 400px;
+    }
+    
+    .caption p {
+        font-size: 0.8rem;
     }
 }
 
