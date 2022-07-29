@@ -21,7 +21,7 @@ article {
     line-height: 1.25;
 }
 
-.blackpaint {
+/* .blackpaint {
     position: absolute;
     height: 80px;
     top: 250px;
@@ -35,7 +35,7 @@ article {
     top: 250px;
     right: 10%;
     animation: rotationAndScale 10s infinite linear;
-}
+} */
 
 @keyframes rotationAndScale {
     0% {transform: rotate( 180deg ); }
@@ -669,7 +669,7 @@ article h6 {
         font-size: 1rem
     }
 
-    .blackpaint {
+    /* .blackpaint {
         height: 50px;
         left: 5%;
     }
@@ -677,7 +677,7 @@ article h6 {
     .redpaint {
         height: 50px;
         right: 5%;
-    }
+    } */
 
     article h1{
         width: 15rem;
@@ -846,13 +846,13 @@ article h6 {
         padding: 50px 0 30px;
     }
 
-    .blackpaint {
+    /* .blackpaint {
         display: none;
     }
     
     .redpaint {
         display: none;
-    }
+    } */
     
     article h1{
         width: 50%;
