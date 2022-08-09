@@ -21,22 +21,6 @@ article {
     line-height: 1.25;
 }
 
-.blackpaint {
-    position: absolute;
-    height: 80px;
-    top: 250px;
-    left: 10%;
-    animation: rotationAndScale 10s infinite linear;
-}
-
-.redpaint {
-    position: absolute;
-    height: 80px;
-    top: 250px;
-    right: 10%;
-    animation: rotationAndScale 10s infinite linear;
-}
-
 @keyframes rotationAndScale {
     0% {transform: rotate( 180deg ); }
     25% {transform: scale( 1.30 ); }
@@ -669,16 +653,6 @@ article h6 {
         font-size: 1rem
     }
 
-    .blackpaint {
-        height: 50px;
-        left: 5%;
-    }
-    
-    .redpaint {
-        height: 50px;
-        right: 5%;
-    }
-
     article h1{
         width: 15rem;
         margin: auto;
@@ -844,14 +818,6 @@ article h6 {
     article {
         width: 100%;
         padding: 50px 0 30px;
-    }
-
-    .blackpaint {
-        display: none;
-    }
-    
-    .redpaint {
-        display: none;
     }
     
     article h1{
